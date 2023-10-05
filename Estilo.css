@@ -1,0 +1,306 @@
+* { 
+
+    box-sizing: content-box;
+   
+}
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {font-size: 3.2em;}
+h2 {font-size: 2.7em;}
+h3 { font-size: 2em;}
+p {font-size: 1.25em;}
+ul{list-style-type: none;}
+
+
+
+.color-acento { color: rgb(47, 243, 227, 0.719);  }
+
+.header {
+    background-color: #b0faff73;
+    color: #000000;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo a {
+    text-decoration: none; 
+}
+
+.logo img {
+    width: 200px; 
+    height: auto; 
+}
+
+.container {
+ max-width: 1000px;
+margin: auto ;
+justify-content: center;
+}
+
+header {
+    background-color: rgb(245,245,245);
+}
+
+header .logo { 
+    margin: 0;
+    padding: 10px 15px;
+}
+
+header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav { 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a {
+    padding: 5px 200px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover {
+    color:rgba(47, 243, 227, 0.719);
+}
+
+#Hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ), url(Imagenes/Hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#Hero2 {
+    display: block;   
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    border-radius: px;
+    height: 129vh;
+    color: rgb(241, 241, 241);
+    background-image: linear-gradient(
+       1deg, 
+        rgba(0, 0, 0, 0.5),
+        rgba(2, 2, 2, 0.5)
+    ), url(Imagenes/fotografia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#Hero3 {
+    display: block;   
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    border-radius: px;
+    height: vh;
+    color: rgb(241, 241, 241);
+    background-image: linear-gradient(
+       1deg, 
+        rgba(0, 0, 0, 0.5),
+        rgba(2, 2, 2, 0.5)
+    ), url(Imagenes/community-manager.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#SomosDylunio .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+#NuestrosServicios {
+    background-color: rgb(39, 39, 39);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+#NuestrosServicios .container {
+    text-align: center;
+    padding: 100px 0px;
+}
+#NuestrosServicios h2{
+    margin-top: 0;
+}
+#NuestrosServicios p{
+    display: none;
+}
+
+#NuestrosServicios .todos-los-servicios{
+    padding: 0px;
+    margin: 0px;
+    border-radius: 200px;
+    
+}
+
+#NuestrosServicios2 {
+    background-color: rgb(29, 29, 29);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+#NuestrosServicios2 .container {
+    text-align: center;
+    padding: 2000px 20px;
+}
+#NuestrosServicios2 h2{
+    margin-top: 2000;
+}
+
+
+
+#NuestrosServicios .todos-los-servicios{
+    padding: 0px;
+    margin: 0px;
+    border-radius: 200px;
+}
+.servicios:first-child { 
+    background-image: 
+    linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ), url(Imagenes/diseño-grafico.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.servicios:nth-child(2) { 
+    background-image: 
+    linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ), url(Imagenes/community-manager.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.servicios:nth-child(3) { 
+    background-image: 
+    linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ), url(Imagenes/fotografia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.servicios:nth-child(4) { 
+    background-image: 
+    linear-gradient(
+        100deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ), url(Imagenes/paginas-web.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+    
+#caracteristicas .container{
+    text-align: center;
+    padding: 100px 12px;
+}
+
+#caracteristicas2 .container{
+    text-align: center;
+    padding: 100px 12px;
+}
+
+#caracteristicas3 .container{
+    text-align: center;
+    padding: 100px 12px;
+}
+
+#caracteristicas li{
+    margin: 16px 0px;
+    font-weight: bold;
+}
+
+#caracteristicas2 li{
+    margin: 16px 0px;
+    font-weight: bold;
+}
+
+#contactanos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #0f0f0fef;
+    color: azure;
+    height: 80vh;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.botonfinal {
+    font-size: 7vw;
+}
+
+
+
+@media (min-width: 780px){
+
+    .header{
+        position: fixed;
+        width: 100px;
+    }
+    .header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+
+    
+      
+}
