@@ -44,6 +44,7 @@ ul{list-style-type: none;}
 
 .container {
  max-width: 1000px;
+  
 margin: auto ;
 justify-content: center;
 }
@@ -140,17 +141,21 @@ header a:hover {
 #SomosDylunio .container{
     text-align: center;
     padding: 200px 12px;
+    
 }
 
 #NuestrosServicios {
     background-color: rgb(39, 39, 39);
     color: rgb(255, 255, 255);
     text-align: center;
+    line-height: 7em;
 }
 
 #NuestrosServicios .container {
     text-align: center;
-    padding: 100px 0px;
+    padding:100px 0px;
+
+   
 }
 #NuestrosServicios h2{
     margin-top: 0;
@@ -160,9 +165,11 @@ header a:hover {
 }
 
 #NuestrosServicios .todos-los-servicios{
-    padding: 0px;
-    margin: 0px;
-    border-radius: 200px;
+   background-position: center;
+   background-size: cover;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
     
 }
 
@@ -177,10 +184,9 @@ header a:hover {
     padding: 2000px 20px;
 }
 #NuestrosServicios2 h2{
-    margin-top: 2000;
+    margin-top: 0px
+    
 }
-
-
 
 #NuestrosServicios .todos-los-servicios{
     padding: 0px;
@@ -197,6 +203,7 @@ header a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    padding: 30px
 }
 
 .servicios:nth-child(2) { 
@@ -209,6 +216,7 @@ header a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    padding: 30px
 }
 
 .servicios:nth-child(3) { 
@@ -221,6 +229,7 @@ header a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    padding: 30px
 }
 .servicios:nth-child(4) { 
     background-image: 
@@ -232,6 +241,7 @@ header a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    padding: 30px
 }
     
 #caracteristicas .container{
