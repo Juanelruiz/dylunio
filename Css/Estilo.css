@@ -12,12 +12,12 @@ body {
 
 /* line 25, ../../../../../../../Entrega N3/sass/Estilo.scss */
 h1 {
-  font-size: 3.3em;
+  font-size: 4.3em;
 }
 
 /* line 29, ../../../../../../../Entrega N3/sass/Estilo.scss */
 h2 {
-  font-size: 2.9em;
+  font-size: 3.9em;
   padding: 20px;
 }
 
@@ -65,7 +65,7 @@ ul {
 
 /* line 67, ../../../../../../../Entrega N3/sass/Estilo.scss */
 .header .logo img {
-  width: 200px;
+  width: 100px;
   height: auto;
 }
 

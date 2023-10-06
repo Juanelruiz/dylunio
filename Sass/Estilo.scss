@@ -12,7 +12,7 @@ $services3-background: url(/Imagenes/fotografia.jpg);
 $services4-background: url(/Imagenes/paginas-web.png);
 $characteristics2-padding: 250px 12px;
 
-
+// Estilos
 * {
   box-sizing: content-box;
 }
@@ -23,11 +23,11 @@ body {
 }
 
 h1 {
-  font-size: 3.3em;
+  font-size: 4.3em;
 }
 
 h2 {
-  font-size: 2.9em;
+  font-size: 3.9em;
   padding: 20px;
 }
 
@@ -65,7 +65,7 @@ ul {
     }
 
     img {
-      width: 200px;
+      width: 100px;
       height: auto;
     }
   }
