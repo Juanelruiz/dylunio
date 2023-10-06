@@ -1,313 +1,339 @@
+@charset "UTF-8";
+/* line 16, ../../../../../../../Entrega N3/sass/Estilo.scss */
 * {
-    box-sizing: content-box;
+  box-sizing: content-box;
 }
 
+/* line 20, ../../../../../../../Entrega N3/sass/Estilo.scss */
 body {
-    margin: 0;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Roboto', sans-serif;
+  margin: 0;
+  font-family: "Poppins", sans-serif, "Roboto", sans-serif;
 }
 
-h1 { font-size: 3.3em; }
-h2 { font-size: 2.9em; 
-padding: 20px;}
-h3 { font-size: 2em; }
-p { font-size: 1.25em; }
-ul { list-style-type: none; }
+/* line 25, ../../../../../../../Entrega N3/sass/Estilo.scss */
+h1 {
+  font-size: 3.3em;
+}
 
-.color-acento { color: rgb(47, 243, 227, 0.719); }
+/* line 29, ../../../../../../../Entrega N3/sass/Estilo.scss */
+h2 {
+  font-size: 2.9em;
+  padding: 20px;
+}
 
+/* line 34, ../../../../../../../Entrega N3/sass/Estilo.scss */
+h3 {
+  font-size: 2em;
+}
+
+/* line 38, ../../../../../../../Entrega N3/sass/Estilo.scss */
+p {
+  font-size: 1.25em;
+}
+
+/* line 42, ../../../../../../../Entrega N3/sass/Estilo.scss */
+ul {
+  list-style-type: none;
+}
+
+/* line 46, ../../../../../../../Entrega N3/sass/Estilo.scss */
+.color-acento {
+  color: #2ff3e3;
+}
+
+/* line 50, ../../../../../../../Entrega N3/sass/Estilo.scss */
 .header {
-    background-color: #b0faff73;
-    color: #000000;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  background-color: #b0faff73;
+  color: #000000;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+/* line 58, ../../../../../../../Entrega N3/sass/Estilo.scss */
+.header .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.logo a {
-    text-decoration: none; 
+/* line 63, ../../../../../../../Entrega N3/sass/Estilo.scss */
+.header .logo a {
+  text-decoration: none;
 }
 
-.logo img {
-    width: 200px; 
-    height: auto; 
+/* line 67, ../../../../../../../Entrega N3/sass/Estilo.scss */
+.header .logo img {
+  width: 200px;
+  height: auto;
 }
 
+/* line 74, ../../../../../../../Entrega N3/sass/Estilo.scss */
 .container {
- max-width: 1000px;
- justify-content: center;
-  
-margin: auto ;
-justify-content: center;
+  max-width: 1000px;
+  margin: auto;
+  justify-content: center;
 }
 
-header {
-    background-color: rgb(245,245,245);
+/* line 79, ../../../../../../../Entrega N3/sass/Estilo.scss */
+.container header {
+  background-color: whitesmoke;
 }
 
-header .logo { 
-    margin: 0;
-    padding: 10px 15px;
+/* line 82, ../../../../../../../Entrega N3/sass/Estilo.scss */
+.container header .logo {
+  margin: 0;
+  padding: 10px 15px;
 }
 
-header .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
+/* line 87, ../../../../../../../Entrega N3/sass/Estilo.scss */
+.container header .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-header nav { 
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding-bottom: 25px;
+/* line 93, ../../../../../../../Entrega N3/sass/Estilo.scss */
+.container header nav {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 25px;
 }
 
-header a {
-    padding: 5px 200px;
-    text-decoration: none;
-    font-weight: bold;
-    color: black;
+/* line 99, ../../../../../../../Entrega N3/sass/Estilo.scss */
+.container header nav a {
+  padding: 5px 200px;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
 }
 
-header a:hover {
-    color:rgba(47, 243, 227, 0.719);
+/* line 105, ../../../../../../../Entrega N3/sass/Estilo.scss */
+.container header nav a:hover {
+  color: rgba(47, 243, 227, 0.719);
 }
 
+/* line 113, ../../../../../../../Entrega N3/sass/Estilo.scss */
 #Hero {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    height: 90vh;
-    color: white;
-    background-image: linear-gradient(
-        0deg,
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 0.5)
-    ), url(/Imagenes/Hero.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 90vh;
+  color: white;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/Imagenes/Hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
+/* line 131, ../../../../../../../Entrega N3/sass/Estilo.scss */
 #Hero2 {
-    display: block;   
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    border-radius: px;
-    height: 129vh;
-    color: rgb(241, 241, 241);
-    background-image: linear-gradient(
-       1deg, 
-        rgba(0, 0, 0, 0.5),
-        rgba(2, 2, 2, 0.5)
-    ), url(/Imagenes/Servicio2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  border-radius: px;
+  height: 129vh;
+  color: #f1f1f1;
+  background-image: linear-gradient(1deg, rgba(0, 0, 0, 0.5), rgba(2, 2, 2, 0.5)), url(/Imagenes/Servicio2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
+/* line 150, ../../../../../../../Entrega N3/sass/Estilo.scss */
 #Hero3 {
-    display: block;   
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    border-radius: px;
-    height: vh;
-    color: rgb(241, 241, 241);
-    background-image: linear-gradient(
-       1deg, 
-        rgba(0, 0, 0, 0.5),
-        rgba(2, 2, 2, 0.5)
-    ), url(/Imagenes/community-manager.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  border-radius: px;
+  height: vh;
+  color: #f1f1f1;
+  background-image: linear-gradient(1deg, rgba(0, 0, 0, 0.5), rgba(2, 2, 2, 0.5)), url(/Imagenes/community-manager.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
-#SomosDylunio .container{
-    text-align: center;
-    padding: 200px 12px;
-    
+/* line 169, ../../../../../../../Entrega N3/sass/Estilo.scss */
+#SomosDylunio .container {
+  text-align: center;
+  padding: 200px 12px;
 }
 
-
+/* line 174, ../../../../../../../Entrega N3/sass/Estilo.scss */
 #NuestrosServicios {
-    background-color: rgb(39, 39, 39);
-    color: rgb(255, 255, 255);
-    text-align: center;
-    line-height: 7em;
+  background-color: #272727;
+  color: white;
+  text-align: center;
+  line-height: 7em;
 }
 
+/* line 180, ../../../../../../../Entrega N3/sass/Estilo.scss */
 #NuestrosServicios .container {
-    text-align: center;
-    padding:100px 0px;
-
-   
-}
-#NuestrosServicios h2{
-    margin-top: 0;
-}
-#NuestrosServicios p{
-    display: none;
+  text-align: center;
+  padding: 100px 0px;
 }
 
-#NuestrosServicios .todos-los-servicios{
-   background-position: center;
-   background-size: cover;
-    padding: 50px;
-    margin: 20px;
-    border-radius: 15px;
-    
+/* line 184, ../../../../../../../Entrega N3/sass/Estilo.scss */
+#NuestrosServicios .container h2 {
+  margin-top: 0;
 }
 
+/* line 188, ../../../../../../../Entrega N3/sass/Estilo.scss */
+#NuestrosServicios .container p {
+  display: none;
+}
+
+/* line 192, ../../../../../../../Entrega N3/sass/Estilo.scss */
+#NuestrosServicios .container .todos-los-servicios {
+  background-position: center;
+  background-size: cover;
+  padding: 50px;
+  margin: 20px;
+  border-radius: 15px;
+}
+
+/* line 202, ../../../../../../../Entrega N3/sass/Estilo.scss */
 #NuestrosServicios2 {
-    background-color: rgb(29, 29, 29);
-    color: rgb(255, 255, 255);
-    text-align: center;
+  background-color: #1d1d1d;
+  color: white;
+  text-align: center;
 }
 
+/* line 207, ../../../../../../../Entrega N3/sass/Estilo.scss */
 #NuestrosServicios2 .container {
-    text-align: center;
-    padding: 2000px 20px;
-}
-#NuestrosServicios2 h2{
-    margin-top: 0px
-}
-#NuestrosServicios .todos-los-servicios{
-
-    padding: 0px;
-    margin: 0px;
-    border-radius: 200px;
-}
-.servicios:first-child { 
-    background-image: 
-    linear-gradient(
-        0deg,
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 0.5)
-    ), url(/Imagenes/diseño-grafico.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    padding: 30px
+  text-align: center;
+  padding: 2000px 20px;
 }
 
-.servicios:nth-child(2) { 
-    background-image: 
-    linear-gradient(
-        0deg,
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 0.5)
-    ), url(/Imagenes/community-manager.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    padding: 30px
+/* line 211, ../../../../../../../Entrega N3/sass/Estilo.scss */
+#NuestrosServicios2 .container h2 {
+  margin-top: 0px;
 }
 
-.servicios:nth-child(3) { 
-    background-image: 
-    linear-gradient(
-        0deg,
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 0.5)
-    ), url(/Imagenes/fotografia.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    padding: 30px
-}
-.servicios:nth-child(4) { 
-    background-image: 
-    linear-gradient(
-        100deg,
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 0.5)
-    ), url(/Imagenes/paginas-web.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    padding: 30px
-}
-    
-#caracteristicas .container{
-    text-align: center;
-    padding: 100px 12px;
+/* line 215, ../../../../../../../Entrega N3/sass/Estilo.scss */
+#NuestrosServicios2 .container .todos-los-servicios {
+  padding: 0px;
+  margin: 0px;
+  border-radius: 200px;
 }
 
-#caracteristicas2 .container{
-    text-align: center;
-    padding: 250px 12px;
-    
+/* line 223, ../../../../../../../Entrega N3/sass/Estilo.scss */
+.servicios:first-child {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/Imagenes/diseño-grafico.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 30px;
 }
 
-#caracteristicas3 .container{
-    text-align: center;
-    padding: 100px 12px;
+/* line 235, ../../../../../../../Entrega N3/sass/Estilo.scss */
+.servicios:nth-child(2) {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/Imagenes/community-manager.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 30px;
 }
 
-#caracteristicas li{
-    margin: 16px 0px;
-    font-weight: bold;
+/* line 247, ../../../../../../../Entrega N3/sass/Estilo.scss */
+.servicios:nth-child(3) {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/Imagenes/fotografia.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 30px;
 }
 
-#caracteristicas2 li{
-    margin: 20px 100px;
-    font-weight: bold;
+/* line 259, ../../../../../../../Entrega N3/sass/Estilo.scss */
+.servicios:nth-child(4) {
+  background-image: linear-gradient(100deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/Imagenes/paginas-web.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 30px;
 }
 
+/* line 271, ../../../../../../../Entrega N3/sass/Estilo.scss */
+#caracteristicas .container {
+  text-align: center;
+  padding: 100px 12px;
+}
+
+/* line 276, ../../../../../../../Entrega N3/sass/Estilo.scss */
+#caracteristicas2 .container {
+  text-align: center;
+  padding: 250px 12px;
+}
+
+/* line 281, ../../../../../../../Entrega N3/sass/Estilo.scss */
+#caracteristicas3 .container {
+  text-align: center;
+  padding: 100px 12px;
+}
+
+/* line 286, ../../../../../../../Entrega N3/sass/Estilo.scss */
+#caracteristicas li {
+  margin: 16px 0px;
+  font-weight: bold;
+}
+
+/* line 291, ../../../../../../../Entrega N3/sass/Estilo.scss */
+#caracteristicas2 li {
+  margin: 20px 100px;
+  font-weight: bold;
+}
+
+/* line 296, ../../../../../../../Entrega N3/sass/Estilo.scss */
 #contactanos {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: #0f0f0fef;
-    color: azure;
-    height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #0f0f0fef;
+  color: azure;
+  height: 50vh;
 }
 
+/* line 307, ../../../../../../../Entrega N3/sass/Estilo.scss */
 footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
+/* line 315, ../../../../../../../Entrega N3/sass/Estilo.scss */
 .botonfinal {
-    font-size: 7vw;
+  font-size: 7vw;
 }
-
 
 @media (max-width: 780px) {
-    .header {
-        position: fixed;
-    }
-
-    .header .container {
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    .header nav {
-        flex-direction: row;
-        padding-bottom: 0;
-        padding-right: 20px;
-    }
+  /* line 320, ../../../../../../../Entrega N3/sass/Estilo.scss */
+  .header {
+    position: fixed;
+  }
+  /* line 324, ../../../../../../../Entrega N3/sass/Estilo.scss */
+  .header .container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  /* line 329, ../../../../../../../Entrega N3/sass/Estilo.scss */
+  .header nav {
+    flex-direction: row;
+    padding-bottom: 0;
+    padding-right: 20px;
+  }
 }
+
+/*# sourceMappingURL=Estilo.css.map */

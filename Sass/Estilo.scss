@@ -1,0 +1,334 @@
+$primary-font: 'Poppins', sans-serif;
+$secondary-font: 'Roboto', sans-serif;
+$primary-color: rgb(47, 243, 227);
+$background-color: #b0faff73;
+$container-max-width: 1000px;
+$hero-background: url(/Imagenes/Hero.jpg);
+$hero2-background: url(/Imagenes/Servicio2.jpg);
+$hero3-background: url(/Imagenes/community-manager.jpg);
+$services-background: url(/Imagenes/diseño-grafico.jpg);
+$services2-background: url(/Imagenes/community-manager.jpg);
+$services3-background: url(/Imagenes/fotografia.jpg);
+$services4-background: url(/Imagenes/paginas-web.png);
+$characteristics2-padding: 250px 12px;
+
+
+* {
+  box-sizing: content-box;
+}
+
+body {
+  margin: 0;
+  font-family: $primary-font, $secondary-font;
+}
+
+h1 {
+  font-size: 3.3em;
+}
+
+h2 {
+  font-size: 2.9em;
+  padding: 20px;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+p {
+  font-size: 1.25em;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.color-acento {
+  color: $primary-color;
+}
+
+.header {
+  background-color: $background-color;
+  color: #000000;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    a {
+      text-decoration: none;
+    }
+
+    img {
+      width: 200px;
+      height: auto;
+    }
+  }
+}
+
+.container {
+  max-width: $container-max-width;
+  margin: auto;
+  justify-content: center;
+
+  header {
+    background-color: rgb(245, 245, 245);
+
+    .logo {
+      margin: 0;
+      padding: 10px 15px;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    nav {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      padding-bottom: 25px;
+
+      a {
+        padding: 5px 200px;
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+
+        &:hover {
+          color: rgba(47, 243, 227, 0.719);
+        }
+      }
+    }
+  }
+}
+
+#Hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 90vh;
+  color: white;
+  background-image: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ), $hero-background;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#Hero2 {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  border-radius: px;
+  height: 129vh;
+  color: rgb(241, 241, 241);
+  background-image: linear-gradient(
+    1deg,
+    rgba(0, 0, 0, 0.5),
+    rgba(2, 2, 2, 0.5)
+  ), $hero2-background;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#Hero3 {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  border-radius: px;
+  height: vh;
+  color: rgb(241, 241, 241);
+  background-image: linear-gradient(
+    1deg,
+    rgba(0, 0, 0, 0.5),
+    rgba(2, 2, 2, 0.5)
+  ), $hero3-background;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#SomosDylunio .container {
+  text-align: center;
+  padding: 200px 12px;
+}
+
+#NuestrosServicios {
+  background-color: rgb(39, 39, 39);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  line-height: 7em;
+
+  .container {
+    text-align: center;
+    padding: 100px 0px;
+
+    h2 {
+      margin-top: 0;
+    }
+
+    p {
+      display: none;
+    }
+
+    .todos-los-servicios {
+      background-position: center;
+      background-size: cover;
+      padding: 50px;
+      margin: 20px;
+      border-radius: 15px;
+    }
+  }
+}
+
+#NuestrosServicios2 {
+  background-color: rgb(29, 29, 29);
+  color: rgb(255, 255, 255);
+  text-align: center;
+
+  .container {
+    text-align: center;
+    padding: 2000px 20px;
+
+    h2 {
+      margin-top: 0px;
+    }
+
+    .todos-los-servicios {
+      padding: 0px;
+      margin: 0px;
+      border-radius: 200px;
+    }
+  }
+}
+
+.servicios:first-child {
+  background-image: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ), $services-background;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 30px;
+}
+
+.servicios:nth-child(2) {
+  background-image: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ), $services2-background;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 30px;
+}
+
+.servicios:nth-child(3) {
+  background-image: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ), $services3-background;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 30px;
+}
+
+.servicios:nth-child(4) {
+  background-image: linear-gradient(
+    100deg,
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ), $services4-background;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 30px;
+}
+
+#caracteristicas .container {
+  text-align: center;
+  padding: 100px 12px;
+}
+
+#caracteristicas2 .container {
+  text-align: center;
+  padding: $characteristics2-padding;
+}
+
+#caracteristicas3 .container {
+  text-align: center;
+  padding: 100px 12px;
+}
+
+#caracteristicas li {
+  margin: 16px 0px;
+  font-weight: bold;
+}
+
+#caracteristicas2 li {
+  margin: 20px 100px;
+  font-weight: bold;
+}
+
+#contactanos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #0f0f0fef;
+  color: azure;
+  height: 50vh;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.botonfinal {
+  font-size: 7vw;
+}
+
+@media (max-width: 780px) {
+  .header {
+    position: fixed;
+  }
+
+  .header .container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .header nav {
+    flex-direction: row;
+    padding-bottom: 0;
+    padding-right: 20px;
+  }
+}
