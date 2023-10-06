@@ -1,23 +1,21 @@
-* { 
-
+* {
     box-sizing: content-box;
-   
 }
+
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
 
-h1 {font-size: 3.1em;}
-h2 {font-size: 2.7em;}
-h3 { font-size: 2em;}
-p {font-size: 1.25em;}
-ul{list-style-type: none;}
+h1 { font-size: 3.3em; }
+h2 { font-size: 2.9em; 
+padding: 20px;}
+h3 { font-size: 2em; }
+p { font-size: 1.25em; }
+ul { list-style-type: none; }
 
-
-
-.color-acento { color: rgb(47, 243, 227, 0.719);  }
+.color-acento { color: rgb(47, 243, 227, 0.719); }
 
 .header {
     background-color: #b0faff73;
@@ -31,6 +29,7 @@ ul{list-style-type: none;}
 .logo {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .logo a {
@@ -44,6 +43,7 @@ ul{list-style-type: none;}
 
 .container {
  max-width: 1000px;
+ justify-content: center;
   
 margin: auto ;
 justify-content: center;
@@ -62,7 +62,6 @@ header .container {
     display: flex;
     flex-direction: column;
     align-items: center;
-   
 
 }
 
@@ -96,7 +95,7 @@ header a:hover {
         0deg,
         rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.5)
-    ), url(Imagenes/Hero.jpg);
+    ), url(/Imagenes/Hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -115,7 +114,7 @@ header a:hover {
        1deg, 
         rgba(0, 0, 0, 0.5),
         rgba(2, 2, 2, 0.5)
-    ), url(Imagenes/fotografia.jpg);
+    ), url(/Imagenes/Servicio2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -134,7 +133,7 @@ header a:hover {
        1deg, 
         rgba(0, 0, 0, 0.5),
         rgba(2, 2, 2, 0.5)
-    ), url(Imagenes/community-manager.jpg);
+    ), url(/Imagenes/community-manager.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -145,6 +144,7 @@ header a:hover {
     padding: 200px 12px;
     
 }
+
 
 #NuestrosServicios {
     background-color: rgb(39, 39, 39);
@@ -187,10 +187,9 @@ header a:hover {
 }
 #NuestrosServicios2 h2{
     margin-top: 0px
-    
 }
-
 #NuestrosServicios .todos-los-servicios{
+
     padding: 0px;
     margin: 0px;
     border-radius: 200px;
@@ -201,7 +200,7 @@ header a:hover {
         0deg,
         rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.5)
-    ), url(Imagenes/diseño-grafico.jpg);
+    ), url(/Imagenes/diseño-grafico.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -214,7 +213,7 @@ header a:hover {
         0deg,
         rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.5)
-    ), url(Imagenes/community-manager.jpg);
+    ), url(/Imagenes/community-manager.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -227,7 +226,7 @@ header a:hover {
         0deg,
         rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.5)
-    ), url(Imagenes/fotografia.jpg);
+    ), url(/Imagenes/fotografia.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -239,7 +238,7 @@ header a:hover {
         100deg,
         rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.5)
-    ), url(Imagenes/paginas-web.png);
+    ), url(/Imagenes/paginas-web.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -253,7 +252,8 @@ header a:hover {
 
 #caracteristicas2 .container{
     text-align: center;
-    padding: 100px 12px;
+    padding: 250px 12px;
+    
 }
 
 #caracteristicas3 .container{
@@ -267,7 +267,7 @@ header a:hover {
 }
 
 #caracteristicas2 li{
-    margin: 16px 0px;
+    margin: 20px 100px;
     font-weight: bold;
 }
 
@@ -279,7 +279,7 @@ header a:hover {
     text-align: center;
     background-color: #0f0f0fef;
     color: azure;
-    height: 80vh;
+    height: 50vh;
 }
 
 footer {
@@ -297,21 +297,17 @@ footer {
 
 @media (max-width: 780px) {
     .header {
-        position: static;
-        width: auto;
+        position: fixed;
     }
 
     .header .container {
-        flex-direction: column;
-        justify-content: center;
+        flex-direction: row;
+        justify-content: space-between;
     }
 
     .header nav {
-        flex-direction: column;
-        padding-bottom: 10px;
-        padding-right: 0;
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
     }
 }
-
-    
-      
