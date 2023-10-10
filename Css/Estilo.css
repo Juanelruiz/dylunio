@@ -1,47 +1,47 @@
 @charset "UTF-8";
-/* line 16, ../../../../../../../Entrega N3/sass/Estilo.scss */
+/* line 18, ../../Entrega N3/Sass/Estilo.scss */
 * {
   box-sizing: content-box;
 }
 
-/* line 20, ../../../../../../../Entrega N3/sass/Estilo.scss */
+/* line 23, ../../Entrega N3/Sass/Estilo.scss */
 body {
   margin: 0;
   font-family: "Poppins", sans-serif, "Roboto", sans-serif;
 }
 
-/* line 25, ../../../../../../../Entrega N3/sass/Estilo.scss */
+/* line 28, ../../Entrega N3/Sass/Estilo.scss */
 h1 {
   font-size: 4.3em;
 }
 
-/* line 29, ../../../../../../../Entrega N3/sass/Estilo.scss */
+/* line 32, ../../Entrega N3/Sass/Estilo.scss */
 h2 {
-  font-size: 3.9em;
+  font-size: 2.9em;
   padding: 20px;
 }
 
-/* line 34, ../../../../../../../Entrega N3/sass/Estilo.scss */
+/* line 37, ../../Entrega N3/Sass/Estilo.scss */
 h3 {
   font-size: 2em;
 }
 
-/* line 38, ../../../../../../../Entrega N3/sass/Estilo.scss */
+/* line 41, ../../Entrega N3/Sass/Estilo.scss */
 p {
   font-size: 1.25em;
 }
 
-/* line 42, ../../../../../../../Entrega N3/sass/Estilo.scss */
+/* line 45, ../../Entrega N3/Sass/Estilo.scss */
 ul {
   list-style-type: none;
 }
 
-/* line 46, ../../../../../../../Entrega N3/sass/Estilo.scss */
+/* line 49, ../../Entrega N3/Sass/Estilo.scss */
 .color-acento {
   color: #2ff3e3;
 }
 
-/* line 50, ../../../../../../../Entrega N3/sass/Estilo.scss */
+/* line 53, ../../Entrega N3/Sass/Estilo.scss */
 .header {
   background-color: #b0faff73;
   color: #000000;
@@ -51,50 +51,51 @@ ul {
   align-items: center;
 }
 
-/* line 58, ../../../../../../../Entrega N3/sass/Estilo.scss */
+/* line 61, ../../Entrega N3/Sass/Estilo.scss */
 .header .logo {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 100px 12px;
 }
 
-/* line 63, ../../../../../../../Entrega N3/sass/Estilo.scss */
+/* line 68, ../../Entrega N3/Sass/Estilo.scss */
 .header .logo a {
   text-decoration: none;
 }
 
-/* line 67, ../../../../../../../Entrega N3/sass/Estilo.scss */
+/* line 72, ../../Entrega N3/Sass/Estilo.scss */
 .header .logo img {
   width: 100px;
   height: auto;
 }
 
-/* line 74, ../../../../../../../Entrega N3/sass/Estilo.scss */
+/* line 79, ../../Entrega N3/Sass/Estilo.scss */
 .container {
   max-width: 1000px;
   margin: auto;
   justify-content: center;
 }
 
-/* line 79, ../../../../../../../Entrega N3/sass/Estilo.scss */
+/* line 84, ../../Entrega N3/Sass/Estilo.scss */
 .container header {
   background-color: whitesmoke;
 }
 
-/* line 82, ../../../../../../../Entrega N3/sass/Estilo.scss */
+/* line 87, ../../Entrega N3/Sass/Estilo.scss */
 .container header .logo {
   margin: 0;
   padding: 10px 15px;
 }
 
-/* line 87, ../../../../../../../Entrega N3/sass/Estilo.scss */
+/* line 92, ../../Entrega N3/Sass/Estilo.scss */
 .container header .container {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-/* line 93, ../../../../../../../Entrega N3/sass/Estilo.scss */
+/* line 98, ../../Entrega N3/Sass/Estilo.scss */
 .container header nav {
   display: flex;
   flex-direction: column;
@@ -102,7 +103,7 @@ ul {
   padding-bottom: 25px;
 }
 
-/* line 99, ../../../../../../../Entrega N3/sass/Estilo.scss */
+/* line 104, ../../Entrega N3/Sass/Estilo.scss */
 .container header nav a {
   padding: 5px 200px;
   text-decoration: none;
@@ -110,12 +111,12 @@ ul {
   color: black;
 }
 
-/* line 105, ../../../../../../../Entrega N3/sass/Estilo.scss */
+/* line 110, ../../Entrega N3/Sass/Estilo.scss */
 .container header nav a:hover {
   color: rgba(47, 243, 227, 0.719);
 }
 
-/* line 113, ../../../../../../../Entrega N3/sass/Estilo.scss */
+/* line 118, ../../Entrega N3/Sass/Estilo.scss */
 #Hero {
   display: flex;
   align-items: center;
@@ -130,7 +131,7 @@ ul {
   background-position: center center;
 }
 
-/* line 131, ../../../../../../../Entrega N3/sass/Estilo.scss */
+/* line 136, ../../Entrega N3/Sass/Estilo.scss */
 #Hero2 {
   display: block;
   align-items: center;
@@ -146,7 +147,7 @@ ul {
   background-position: center center;
 }
 
-/* line 150, ../../../../../../../Entrega N3/sass/Estilo.scss */
+/* line 155, ../../Entrega N3/Sass/Estilo.scss */
 #Hero3 {
   display: block;
   align-items: center;
@@ -162,13 +163,13 @@ ul {
   background-position: center center;
 }
 
-/* line 169, ../../../../../../../Entrega N3/sass/Estilo.scss */
+/* line 174, ../../Entrega N3/Sass/Estilo.scss */
 #SomosDylunio .container {
   text-align: center;
   padding: 200px 12px;
 }
 
-/* line 174, ../../../../../../../Entrega N3/sass/Estilo.scss */
+/* line 179, ../../Entrega N3/Sass/Estilo.scss */
 #NuestrosServicios {
   background-color: #272727;
   color: white;
@@ -176,23 +177,23 @@ ul {
   line-height: 7em;
 }
 
-/* line 180, ../../../../../../../Entrega N3/sass/Estilo.scss */
+/* line 185, ../../Entrega N3/Sass/Estilo.scss */
 #NuestrosServicios .container {
   text-align: center;
   padding: 100px 0px;
 }
 
-/* line 184, ../../../../../../../Entrega N3/sass/Estilo.scss */
+/* line 189, ../../Entrega N3/Sass/Estilo.scss */
 #NuestrosServicios .container h2 {
   margin-top: 0;
 }
 
-/* line 188, ../../../../../../../Entrega N3/sass/Estilo.scss */
+/* line 193, ../../Entrega N3/Sass/Estilo.scss */
 #NuestrosServicios .container p {
   display: none;
 }
 
-/* line 192, ../../../../../../../Entrega N3/sass/Estilo.scss */
+/* line 197, ../../Entrega N3/Sass/Estilo.scss */
 #NuestrosServicios .container .todos-los-servicios {
   background-position: center;
   background-size: cover;
@@ -201,32 +202,32 @@ ul {
   border-radius: 15px;
 }
 
-/* line 202, ../../../../../../../Entrega N3/sass/Estilo.scss */
+/* line 207, ../../Entrega N3/Sass/Estilo.scss */
 #NuestrosServicios2 {
   background-color: #1d1d1d;
   color: white;
   text-align: center;
 }
 
-/* line 207, ../../../../../../../Entrega N3/sass/Estilo.scss */
+/* line 212, ../../Entrega N3/Sass/Estilo.scss */
 #NuestrosServicios2 .container {
   text-align: center;
   padding: 2000px 20px;
 }
 
-/* line 211, ../../../../../../../Entrega N3/sass/Estilo.scss */
+/* line 216, ../../Entrega N3/Sass/Estilo.scss */
 #NuestrosServicios2 .container h2 {
   margin-top: 0px;
 }
 
-/* line 215, ../../../../../../../Entrega N3/sass/Estilo.scss */
+/* line 220, ../../Entrega N3/Sass/Estilo.scss */
 #NuestrosServicios2 .container .todos-los-servicios {
   padding: 0px;
   margin: 0px;
   border-radius: 200px;
 }
 
-/* line 223, ../../../../../../../Entrega N3/sass/Estilo.scss */
+/* line 228, ../../Entrega N3/Sass/Estilo.scss */
 .servicios:first-child {
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/Imagenes/diseño-grafico.jpg);
   background-repeat: no-repeat;
@@ -235,7 +236,7 @@ ul {
   padding: 30px;
 }
 
-/* line 235, ../../../../../../../Entrega N3/sass/Estilo.scss */
+/* line 240, ../../Entrega N3/Sass/Estilo.scss */
 .servicios:nth-child(2) {
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/Imagenes/community-manager.jpg);
   background-repeat: no-repeat;
@@ -244,7 +245,7 @@ ul {
   padding: 30px;
 }
 
-/* line 247, ../../../../../../../Entrega N3/sass/Estilo.scss */
+/* line 252, ../../Entrega N3/Sass/Estilo.scss */
 .servicios:nth-child(3) {
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/Imagenes/fotografia.jpg);
   background-repeat: no-repeat;
@@ -253,7 +254,7 @@ ul {
   padding: 30px;
 }
 
-/* line 259, ../../../../../../../Entrega N3/sass/Estilo.scss */
+/* line 264, ../../Entrega N3/Sass/Estilo.scss */
 .servicios:nth-child(4) {
   background-image: linear-gradient(100deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/Imagenes/paginas-web.png);
   background-repeat: no-repeat;
@@ -262,37 +263,37 @@ ul {
   padding: 30px;
 }
 
-/* line 271, ../../../../../../../Entrega N3/sass/Estilo.scss */
+/* line 276, ../../Entrega N3/Sass/Estilo.scss */
 #caracteristicas .container {
   text-align: center;
   padding: 100px 12px;
 }
 
-/* line 276, ../../../../../../../Entrega N3/sass/Estilo.scss */
+/* line 281, ../../Entrega N3/Sass/Estilo.scss */
 #caracteristicas2 .container {
   text-align: center;
-  padding: 250px 12px;
+  padding: 10px 0 12px;
 }
 
-/* line 281, ../../../../../../../Entrega N3/sass/Estilo.scss */
+/* line 286, ../../Entrega N3/Sass/Estilo.scss */
 #caracteristicas3 .container {
   text-align: center;
   padding: 100px 12px;
 }
 
-/* line 286, ../../../../../../../Entrega N3/sass/Estilo.scss */
+/* line 291, ../../Entrega N3/Sass/Estilo.scss */
 #caracteristicas li {
   margin: 16px 0px;
   font-weight: bold;
 }
 
-/* line 291, ../../../../../../../Entrega N3/sass/Estilo.scss */
+/* line 296, ../../Entrega N3/Sass/Estilo.scss */
 #caracteristicas2 li {
   margin: 20px 100px;
   font-weight: bold;
 }
 
-/* line 296, ../../../../../../../Entrega N3/sass/Estilo.scss */
+/* line 301, ../../Entrega N3/Sass/Estilo.scss */
 #contactanos {
   display: flex;
   flex-direction: column;
@@ -304,7 +305,7 @@ ul {
   height: 50vh;
 }
 
-/* line 307, ../../../../../../../Entrega N3/sass/Estilo.scss */
+/* line 312, ../../Entrega N3/Sass/Estilo.scss */
 footer {
   display: flex;
   flex-direction: column;
@@ -313,22 +314,22 @@ footer {
   text-align: center;
 }
 
-/* line 315, ../../../../../../../Entrega N3/sass/Estilo.scss */
+/* line 320, ../../Entrega N3/Sass/Estilo.scss */
 .botonfinal {
   font-size: 7vw;
 }
 
 @media (max-width: 780px) {
-  /* line 320, ../../../../../../../Entrega N3/sass/Estilo.scss */
+  /* line 325, ../../Entrega N3/Sass/Estilo.scss */
   .header {
     position: fixed;
   }
-  /* line 324, ../../../../../../../Entrega N3/sass/Estilo.scss */
+  /* line 329, ../../Entrega N3/Sass/Estilo.scss */
   .header .container {
     flex-direction: row;
     justify-content: space-between;
   }
-  /* line 329, ../../../../../../../Entrega N3/sass/Estilo.scss */
+  /* line 334, ../../Entrega N3/Sass/Estilo.scss */
   .header nav {
     flex-direction: row;
     padding-bottom: 0;

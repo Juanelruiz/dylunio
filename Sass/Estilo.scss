@@ -1,3 +1,5 @@
+// Variables
+
 $primary-font: 'Poppins', sans-serif;
 $secondary-font: 'Roboto', sans-serif;
 $primary-color: rgb(47, 243, 227);
@@ -10,10 +12,11 @@ $services-background: url(/Imagenes/diseño-grafico.jpg);
 $services2-background: url(/Imagenes/community-manager.jpg);
 $services3-background: url(/Imagenes/fotografia.jpg);
 $services4-background: url(/Imagenes/paginas-web.png);
-$characteristics2-padding: 250px 12px;
+$characteristics2-padding: 10px 0 12px;    
 
 // Estilos
 * {
+ 
   box-sizing: content-box;
 }
 
@@ -27,7 +30,7 @@ h1 {
 }
 
 h2 {
-  font-size: 3.9em;
+  font-size: 2.9em;
   padding: 20px;
 }
 
@@ -59,6 +62,8 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 100px 12px;
+
 
     a {
       text-decoration: none;
